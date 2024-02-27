@@ -1,5 +1,6 @@
 body {
-    margin-top: 50px;
+    margin: 8px;
+    display: block;
     padding: 25px;
   }
 
@@ -9,10 +10,14 @@ body {
 
 .left-align {
     text-align: left-align;
-  padding-left: 200px;
+    padding-left: 200px;
 }
 
 div {
   padding-left: 500px;
   padding-right: 500px;
 }
+
+.mainHeading {
+    font-weight: 5px;
+  }
