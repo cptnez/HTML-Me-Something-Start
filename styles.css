@@ -2,6 +2,9 @@ body {
     margin: 8px;
     display: block;
     padding: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    background-color: #D6D4D4;
   }
 
 .center {
@@ -13,11 +16,50 @@ body {
     padding-left: 200px;
 }
 
-div {
+.divHeader {
+  padding-bottom: 40px;
+
+}
+
+.divBody {
   padding-left: 500px;
   padding-right: 500px;
 }
 
-.mainHeading {
-    font-weight: 5px;
+
+#mainHeading {
+    font-weight: 100px;
+  }
+
+  .boxPlatinum {
+    background-color: #EBE9E9;
+    padding: 10px;
+  }
+
+  .boxMintCreme {
+    background-color: #f3f8f2;
+    padding: 10px;
+  }
+
+  .boxSteelBlue {
+    background-color: #3581b8;
+    padding: 10px;
+  }
+
+  article {
+    font-size: larger;
+  }
+
+  header {
+    display: inline-block;
+    font-size: 93px;
+    height: 160px;
+    width: 540px;
+    padding-right: 20px;
+    font-family: Oswald;
+    text-align: center;
+  }
+
+  .image-shadow {
+  	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
   }
