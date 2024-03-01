@@ -26,6 +26,11 @@ body {
   padding-right: 500px;
 }
 
+.divMainArea {
+  border: black;
+  border-width: 4px;
+}
+
 
 #mainHeading {
     font-weight: 100px;
@@ -58,6 +63,7 @@ body {
     padding-right: 20px;
     font-family: Oswald;
     text-align: center;
+    
   }
 
   .image-shadow {
