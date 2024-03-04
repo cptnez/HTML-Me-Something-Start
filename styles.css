@@ -5,6 +5,7 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     background-color: #D6D4D4;
+    /* background-image: url('background_640x960.jpg'); */
   }
 
 .center {
@@ -18,17 +19,20 @@ body {
 
 .divHeader {
   padding-bottom: 40px;
-
+  background-image: url('background_640x960.jpg');
 }
 
 .divBody {
   padding-left: 500px;
   padding-right: 500px;
+  
 }
 
 .divMainArea {
+  padding: 10px;
   border: black;
   border-width: 4px;
+  background-color: #f3f8f2;
 }
 
 
@@ -41,7 +45,7 @@ body {
     padding: 10px;
   }
 
-  .boxMintCreme {
+  #boxMintCreme {
     background-color: #f3f8f2;
     padding: 10px;
   }
@@ -68,4 +72,22 @@ body {
 
   .image-shadow {
   	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+  }
+
+  #testP {
+    font-family: Oswald;
+    color: red;
+  }
+
+  .funParagraph {
+    border-color: #3581b8;
+    border-width: 5px;
+    border-style: solid;
+    color: green;
+  }
+
+  .kids {
+    display: block;
+    width: 500px;
+    height: auto;
   }
